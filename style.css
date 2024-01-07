@@ -228,4 +228,94 @@ body{
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    margin-top: 48px;
+}
+
+
+/* coming-soon-section */
+.coming-soon-section{
+    display: flex;
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+}
+.coming-soon-section .background{
+    max-width:1320px;
+    min-width: 1320px;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coming-soon-section .background .div1{
+
+}
+.coming-soon-section .background .div1 h6{
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.coming-soon-section .background .div1 h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+.coming-soon-section .background .div1 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 393px;
+    margin-right: 70px;
+    margin-top: 22px;
+}
+.coming-soon-section .background .div2 .border{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 15px;
+}
+.coming-soon-section .background .div2 .border img{
+    border-radius: 364.844px; 
+    width: 364.844px;
+    height: 364.844px;
+    border: solid white;
+}
+
+.coming-soon-section .background .div3{
+    margin-left: 118px;
+    margin-top: 112px;
+}
+.coming-soon-section .background .div3 h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.coming-soon-section .background .div3 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 276px;
+    margin-top: 16px;
+}
+.coming-soon-section .background .div3 img{
+    width: 140px;
+    height: 140px;
+    margin-top: 43px;
 }
