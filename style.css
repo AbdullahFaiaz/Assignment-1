@@ -455,8 +455,16 @@ body{
     display: flex;
     flex-direction: column;
     gap: 24px;
-    justify-content: center;
+}
+.products-section .background .div1{
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.products-section .background .div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* subscribe-section */
@@ -471,7 +479,7 @@ body{
     min-width: 1320px;
     height: 616px;
     border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
+    background-color: rgba(255, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
     justify-content: center;
