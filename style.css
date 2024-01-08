@@ -101,6 +101,7 @@ body{
 /* hover */
 .offer-section .image:hover {
     transform: scale(1.02);
+    filter: drop-shadow(15px 15px 5px rgb(4, 45, 65));
 }
 
 .offer-section .all-category-heading:hover{
@@ -126,6 +127,7 @@ body{
     max-width:1320px;
     min-width: 1320px;
     height: 600px;
+    
 }
 
 .welcome-section .text-section{
@@ -183,7 +185,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    transition: transform 1s ease;
+    transition: transform 2s ease;
 }
 /* hover */
 .welcome-section .image:hover{
@@ -428,11 +430,11 @@ body{
     background-repeat: no-repeat;
     background-position: 746px 81px, top left, bottom,top right;
 }
+
 /* hover */
 .discount-section .background:hover{
     transform: scale(1.01);
 }
-
 
 /* gift-section */
 .gift-section{
