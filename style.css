@@ -100,6 +100,7 @@ body{
 
 /* welcome-section */
 
+
 .welcome-section{
     display: flex;
     justify-content: center;
@@ -156,6 +157,13 @@ body{
     background-color: rgba(7, 2, 17, 0.0);
     height: 1.8em;
     width: 7em;
+}
+/* hover */
+.welcome-section .text-section .join-btn:hover { 
+    background-color: rgb(7, 2, 17); 
+    color: hsl(39, 100%, 43%);
+    width: 7.0em;
+    cursor: pointer; 
 }
 .welcome-section .image{
     background: (50% 50% at 50% 50%, #690B02 27%, #8F4941 39%, #B18079 51%, #CDADA8 62%, #E3D1CD 73%, #F2EAE7 84%, #FCFAF6 93%, #FFFFFC 100%);
@@ -216,6 +224,7 @@ body{
 }
 .place-section .background .place-info-section .join-btn{
     border-radius: 8px;
+    border-color: #F00 ;
     background: #F00;
     padding: 16px 32px;
     justify-content: center;
@@ -230,7 +239,15 @@ body{
     text-transform: uppercase;
     margin-top: 48px;
 }
+/* hover */
+.place-section .background .place-info-section .join-btn:hover{
 
+    background: rgb(88, 0, 0);
+    cursor:pointer;
+    padding: 16px 32px;
+    color: #ffee00;
+    
+}
 
 /* coming-soon-section */
 .coming-soon-section{
@@ -466,6 +483,18 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.products{
+    border-radius: 16px;
+    width: 425px;
+    height: 445px;
+    transition: opacity 0.3s ease;
+    transition: transform 0.3s ease;
+}
+/* hover */
+.products-section .background .products:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
 
 /* subscribe-section */
 .subscribe-section{
@@ -539,8 +568,23 @@ body{
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
-    
 }
+.subscribe-section .background .email-subscribe button:hover{
+    border-radius: 0px 50px 50px 0px;
+    border-color:#690B02;
+    background: rgb(255, 77, 77);
+    width: 200px;
+    height: 72px;
+    color: #fffefb;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+/* hover */
 
 /* footer section */
 footer p{
