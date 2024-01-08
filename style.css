@@ -92,12 +92,20 @@ body{
     font-weight: 700;
     line-height: normal;
     margin-top: 16px;
+    transition: transform 0.3s ease;
 }
 .offer-section .image{
     margin-top: 48px;
+    transition: transform 0.3s ease;
+}
+/* hover */
+.offer-section .image:hover {
+    transform: scale(1.02);
 }
 
-
+.offer-section .all-category-heading:hover{
+    transform: scale(1.1);
+}
 /* welcome-section */
 
 
@@ -148,22 +156,22 @@ body{
     color: #FFF;
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
     margin: 48px 0px 0px 158px;
     background-color: rgba(7, 2, 17, 0.0);
-    height: 1.8em;
-    width: 7em;
+    height: 2em;
+    width: 7.5em;
 }
 /* hover */
 .welcome-section .text-section .join-btn:hover { 
     background-color: rgb(7, 2, 17); 
     color: hsl(39, 100%, 43%);
-    width: 7.0em;
     cursor: pointer; 
+    transform: scale(1.1);
 }
 .welcome-section .image{
     background: (50% 50% at 50% 50%, #690B02 27%, #8F4941 39%, #B18079 51%, #CDADA8 62%, #E3D1CD 73%, #F2EAE7 84%, #FCFAF6 93%, #FFFFFC 100%);
@@ -175,8 +183,11 @@ body{
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    transition: transform 1s ease;
 }
-
+/* hover */
+.welcome-section .image:hover{
+    transform: rotateZ(360deg)}
 /* place-section */
 .place-section{
     display: flex;
@@ -246,6 +257,7 @@ body{
     cursor:pointer;
     padding: 16px 32px;
     color: #ffee00;
+    transform: scale(1.1);
     
 }
 
@@ -416,6 +428,11 @@ body{
     background-repeat: no-repeat;
     background-position: 746px 81px, top left, bottom,top right;
 }
+/* hover */
+.discount-section .background:hover{
+    transform: scale(1.01);
+}
+
 
 /* gift-section */
 .gift-section{
@@ -569,22 +586,14 @@ body{
     line-height: normal;
     text-transform: capitalize;
 }
+/* hover */
 .subscribe-section .background .email-subscribe button:hover{
     border-radius: 0px 50px 50px 0px;
     border-color:#690B02;
     background: rgb(255, 77, 77);
-    width: 200px;
-    height: 72px;
-    color: #fffefb;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
+    transform: scale(1.05);
 }
-/* hover */
+
 
 /* footer section */
 footer p{
@@ -619,10 +628,25 @@ footer p{
 .footer .background .div1 .under1-div1{
     width: 500px;
     height: 80px;
+    cursor: pointer;
 }
 .footer .background .div1 .under2-div1{
     width: 375px;
     height: 80px;
+    cursor: pointer;
+}
+/* hover */
+.footer .background .under1-div1:hover{
+    text-decoration: underline;
+}
+.footer .background .under2-div1 .mobile:hover{
+    color: skyblue;
+    transform: scale(1.1);
+}
+.footer .background .under2-div1 .website:hover{
+    color: skyblue;
+    transform: scale(1.1);
+    text-decoration: underline;
 }
 .footer hr{
     width: 1320px;
@@ -637,12 +661,32 @@ footer p{
     gap: 24px;
     margin-top: 48px;
     margin-bottom: 48px;
-}
 
+}
+.footer .div2 img{
+    transition: transform 1.0s ease;
+}
+/* hover */
+.footer .div2 img:hover{
+    transform: rotate(360deg) scale(1.5);
+
+
+}
 .footer .div3{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
     margin-left: 140px;
     margin-right: 140px;
+    
+}
+.footer .unsubscribe{
+    color: #F2EAE7;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* hover */
+.footer .div3 .unsubscribe:hover{
+    color: hsl(247, 88%, 68%);
+    transform: scale(1.1);
 }
