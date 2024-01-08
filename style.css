@@ -443,7 +443,7 @@ body{
     margin-top: 22px;
 }
 
-/* gift-section */
+/* product-section */
 .products-section{
     display: flex;
     justify-content: center;
@@ -455,12 +455,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    justify-content: center;
+    align-items: center;
 }
 
-.product-section .background .products{
-    border-radius: 16px;
-}
-.product-section .background .div1{
-    display: flex;
-    flex-direction: column;
-}
